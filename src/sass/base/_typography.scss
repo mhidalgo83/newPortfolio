@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+body {
+    font-family: "Lato", sans-serif;
+    letter-spacing: .6rem;
+    line-height: 1.7;
+}
+
+a{
+    text-decoration: none;
+    color: $color-primary-dark;
+}
+
+h1{
+    font-size: 2.5rem;
+    color: $color-primary-light;
+}
+
+h2{
+    font-size: 2rem;
+    color: $color-primary-light;
+}

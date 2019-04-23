@@ -1,0 +1,23 @@
+.header {
+  height: 4.5rem;
+  font-size: 3rem;
+  background-color: rgba($color-primary-light, 0.5);
+  padding: 3rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1rem;
+  color: $color-primary-dark;
+
+  &__main {
+    display: inline-block;
+  }
+
+  &__links {
+    position: relative;
+    float: right;
+
+    &--each {
+      padding: 1rem;
+    }
+  }
+}

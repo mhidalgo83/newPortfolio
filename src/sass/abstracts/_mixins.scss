@@ -1,0 +1,13 @@
+@mixin absCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@mixin underlineText {
+  transform: translateY(-0.3rem);
+  border-color: $color-primary-dark;
+  border-bottom-style: solid;
+  border-width: 1rem;
+}
